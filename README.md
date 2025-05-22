@@ -54,6 +54,10 @@ Generate a 16-character password and replace it in the script (send_email() func
 
 Enable less secure apps access or use 2FA with App Passwords for Gmail security.
 
+<h2>🔐 Security Note</h2>
+🔒 Never upload your actual email password in the source code.
+This project uses an App Password for Gmail. You should enable 2FA and create an app-specific password for security.
+
 <h2>🧠 Example Commands</h2>
 “Violet, open Chrome”
 
@@ -68,6 +72,21 @@ Enable less secure apps access or use 2FA with App Passwords for Gmail security.
 “Open camera”
 
 “Shutdown the system”
+
+<h2>🛠 Dependencies</h2>
+pyttsx3 – Text-to-speech engine
+
+speechrecognition – Voice recognition
+
+wikipedia – Fetches information from Wikipedia
+
+pywhatkit – YouTube and web search automation
+
+opencv-python – Camera control
+
+pyautogui – Screenshot and keyboard control
+
+webbrowser, subprocess, os, smtplib – Built-in modules
 
 <h2>🙋‍♂️ About Me</h2>
 Created with 💙 by Abhinandan
