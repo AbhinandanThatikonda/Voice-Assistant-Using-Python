@@ -1,0 +1,10 @@
+pyttsx3==2.90
+SpeechRecognition==3.10.0
+wikipedia==1.4.0
+pywhatkit==5.4
+opencv-python==4.9.0.80
+pyautogui==0.9.54
+pyaudio==0.2.13
+⚠️ Note: If you face issues installing pyaudio on Windows, use:
+pip install pipwin
+pipwin install pyaudio
